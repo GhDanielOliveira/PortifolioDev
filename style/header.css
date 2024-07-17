@@ -1,0 +1,59 @@
+#intro{
+display: grid;
+flex-direction: column;
+align-items: center;
+
+justify-content: center;
+background-image: url(../assets/bg-image/Background_Intro.png);
+background-size: 100%;
+}
+#info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 1040px;
+  height: 447px;
+
+  padding: 0px;
+  gap: 80px;
+
+  position: relative;
+
+  left: calc(50% - 1040px/2);
+  top: 120px;
+}
+ header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 680px;
+  height: 159px;
+
+  padding: 0px;
+  gap: 56px;
+
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
