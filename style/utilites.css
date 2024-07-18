@@ -4,6 +4,10 @@
 .gap-24{
   gap: 24px;
 }
+.subtitle{
+  color: var(--main-red);
+  font-family: var(--font-family-inconsolata);
+}
 .card-nav{
   display: flex;
   align-items: center;
@@ -16,28 +20,4 @@
   background-color: var(--base-gray-300);
 
 
-}
-.github {
-  width: 114px;
-  height: 40px;
-}
-.css {
-  width: 92px;
-  height: 40px;
-}
-.js {
-  width: 138px;
-  height: 40px;
-}
-.react {
-  width: 106px;
-  height: 40px;
-}
-.html {
-  width: 105px;
-  height: 40px;
-}
-.node {
-  width: 119px;
-  height: 40px;
 }
