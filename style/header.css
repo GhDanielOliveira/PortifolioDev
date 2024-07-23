@@ -1,47 +1,52 @@
 #intro{
-display: grid;
-flex-direction: column;
-align-items: center;
-
-justify-content: center;
-background-image: url(../assets/bg-image/Background_Intro.png);
-background-size: 100%;
-}
-#info {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  width: 1040px;
-  height: 447px;
-
-  padding: 0px;
-  gap: 80px;
-
-  position: relative;
-
-  left: calc(50% - 1040px/2);
-  top: 120px;
-}
- header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  width: 680px;
-  height: 159px;
-
-  padding: 0px;
-  gap: 56px;
   
+
+  background-image: url(../assets/bg-image/Background_Intro.png);
+  background-size: 100%;
+
+  width: auto;
+  height: 750px;
+}
+#info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-block:120px 94px;
+  
+  width: 1040px;
+  height: auto;
+}
+#info header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  margin-bottom: 80px;
+  width: 680px;
+  height: auto;
+  img{
+    margin-bottom: 56px;
+    object-fit: cover;
+  }
   p:first-child{
-    text-align: center;
     font: var(--subtitle);
-    
+    margin-bottom: 8px;
   }
 
- }
+  p:last-child{
+    color: var(--base-gray-400);
+    font: var(--text-sm);
+  }
+}
+nav{
+  display: flex;
+  gap: 16px;
+}
  .github {
   width: 114px;
   height: 40px;

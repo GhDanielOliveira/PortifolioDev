@@ -1,61 +1,197 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portifolio</title>
 
   <link rel="stylesheet" href="style/index.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
   <div id="intro">
     <div id="info">
       <header>
-        <div>
           <img src="assets/Avatar.png" alt="imagem de Martina Santos">
-        </div>
+          <div>
+            <p>
+              Hello World! Meu nome é <span class="sub-title">Martina Santos</span> e sou</p>
+              <h1>Desenvolvedora Fullstack</h1>
+              <p>Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da <br>minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
+            </p>
+          </div>
+        </header>
 
-        <div>
-          <p>
-            Hello World! Meu nome é <span class="subtitle">Martina Santos</span> e sou</p>
-            <h1>Desenvolvedora Fullstack</h1>
-            <p>Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da <br>minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
-        </div>
-      </header>
-
-        <nav class="gap-16">
-          <div class="card-nav github">
+        <nav>
+          <div class="content-tag github">
             <img src="assets/icons/GitHub.svg" alt="ícone do GitHub">
             <a href="#">GitHub</a>
           </div>
 
-          <div class="card-nav html">
+          <div class="content-tag html">
             <img src="assets/icons/HTML.svg" alt="ícone do HTML">
             <a href="#">HTML</a>
           </div>
 
-          <div class="card-nav css">
+          <div class="content-tag css">
             <img src="assets/icons/CSS.svg" alt="ícone do CSS">
             <a href="#">CSS</a>
           </div>
 
-          <div class="card-nav js">
+          <div class="content-tag js">
             <img src="assets/icons/JavaScript.svg" alt="ícone do Javascript">
             <a href="#">Javascript</a>
          </div>
 
-         <div class="card-nav react">
+         <div class="content-tag react">
           <img src="assets/icons/React.svg" alt="ícone do React">
           <a href="#">React</a>
         </div>
 
-        <div class="card-nav node">
+        <div class="content-tag node">
           <img src="assets/icons/Node.js.svg" alt="ícone do Node.js">
           <a href="#">Node.js</a>
         </div>
         </nav>
-      </div>
-      <img src="assets/icons/CaretDoubleDown.svg" alt="ícone de duas setas apontando para baixo">
+    </div>
+        <img src="assets/icons/CaretDoubleDown.svg" alt="ícone de duas setas apontando para baixo">
   </div>
+  <main >
+    <section id="projects">
+      <header>
+        <span>Meu trabalho</span>
+        <h2>Veja os projetos em destaque</h2>
+      </header>
+      <div class="grid grid-flow-col-3">
+        <figure class="card-meu-trabalho">
+          <img src="assets/projects/Thumbnail_Project-01.png" alt="">
+
+          <figcaption>
+            <h3>Travelgram</h3>
+            <p>
+              Rede social onde as pessoas mostram os registros de suas viagens pelo mundo  
+            </p>
+          </figcaption>
+        </figure>
+        <figure class="card-meu-trabalho">
+          <img src="assets/projects/Thumbnail_Project-02.png" alt="">
+
+          <figcaption>
+            <h3>Tech News</h3>
+            <p>
+              Homepage de um portal de notícias sobre a área de tecnologia  
+            </p>
+          </figcaption>
+        </figure>
+        <figure class="card-meu-trabalho">
+          <img src="assets/projects/Thumbnail_Project-03.png" alt="">
+
+          <figcaption>
+            <h3>Página de receita</h3>
+            <p>
+              Página com o passo a passo de uma receita para cupcakes  
+            </p>
+          </figcaption>
+        </figure>
+        <figure class="card-meu-trabalho">
+          <img src="assets/projects/Thumbnail_Project-04.png" alt="">
+
+          <figcaption>
+            <h3>Zingen</h3>
+            <p>
+              Landing Page completa e responsiva de um aplicativo de Karaokê  
+            </p>
+          </figcaption>
+        </figure>
+        <figure class="card-meu-trabalho">
+          <img src="assets/projects/Thumbnail_Project-05.png" alt="">
+
+          <figcaption>
+            <h3>Refund</h3>
+            <p>
+              Um sistema para pedido e acompanhamento de reembolso   
+            </p>
+          </figcaption>
+        </figure>
+        <figure class="card-meu-trabalho">
+          <img src="assets/projects/Thumbnail_Project-06.png" alt="">
+
+          <figcaption>
+            <h3>Página de turismo</h3>
+            <p>
+              Página com as principais informações para quem quer viajar para Busan  
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="services">
+      <header class="gap-8">
+        <span>Meus serviços</span>
+        <h2>Como posso ajudar o seu negócio</h2>
+      </header>
+      <div class="grid grid-flow-col-3 gap-24">
+        <div class="card-services">
+          <img src="assets/icons-service/Devices.svg" alt="">
+          <h3>Websites e Aplicativos</h3>
+          <p>Desenvolvimento de interfaces</p>
+        </div>
+        <div class="card-services">
+          <img src="assets/icons-service/HardDrives.svg" alt="">
+          <h3>Websites e Aplicativos</h3>
+          <p>Desenvolvimento de interfaces</p>
+        </div>
+        <div class="card-services">
+          <img class="gap-8" src="assets/icons-service/Infinity.svg" alt="">
+          <h3>Websites e Aplicativos</h3>
+          <p>Desenvolvimento de interfaces</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-contact">
+      <header>
+        <span>Contato</span>
+        <h2>Gostou do meu trabalho? </h2>
+        <p>Entre em contato ou acompanhe as minhas redes sociais!</p>
+      </header>
+
+      <div id="links">
+        <div class="card-contact">
+          <img src="assets/icons-contact/LinkedinLogo.svg" alt="">
+          <a href="#">Linkedin</a>
+          <img src="assets/ArrowUpRight.svg" alt="">
+        </div>
+
+        <div class="card-contact">
+          <img src="assets/icons-contact/InstagramLogo.svg" alt="">
+          <a href="#">Instagram</a>
+          <img src="assets/ArrowUpRight.svg" alt="">
+        </div>
+
+        <div class="card-contact">
+          <img src="assets/icons-contact/GithubLogo.svg" alt="">
+          <a href="#">GitHub</a>
+          <img src="assets/ArrowUpRight.svg" alt="">
+        </div>
+        
+        <div class="card-contact">
+          <img src="assets/icons-contact/EnvelopeSimple.svg" alt="">
+          <a href="#">E-mail</a>
+          <img src="assets/ArrowUpRight.svg" alt="">
+        </div>
+      </div>
+    </section>
+  
+  </main>
+ 
 </body>
 </html>

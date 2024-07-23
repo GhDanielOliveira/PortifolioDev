@@ -1,23 +1,64 @@
+.content-tag{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--base-gray-300);
+  border-radius: 99px;
+}
+.card-meu-trabalho{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  border-radius: 12px;
+  padding: 12px;
+  gap: 20px;
+  
+  width: 330px;
+  height: 280px;
+  background-color: var(--base-gray-300);
+}
+.card-services{
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  padding: 20px;
+  width: 280px;
+  height: 155px;
+  border-radius: 12px;
+  border: 2px solid var(--base-gray-200);
+}
+.grid{
+  display: grid;
+}
+.grid-flow-col-3{
+  grid-template-columns: repeat(3, 1fr);
+}
+.gap-8{
+  gap: 8px;
+}
 .gap-16{
   gap: 16px;
 }
 .gap-24{
-  gap: 24px;
+gap: 24px;
 }
-.subtitle{
-  color: var(--main-red);
-  font-family: var(--font-family-inconsolata);
-}
-.card-nav{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 99px;
-
-  padding: 16px;
-  gap: 8px;
-
-  background-color: var(--base-gray-300);
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
